@@ -3,6 +3,7 @@ dist: trusty
 language: node_js
 node_js:
   - "4.8.7"
+  - "10"
 
 before_script:
   - echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
